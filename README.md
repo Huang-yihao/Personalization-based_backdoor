@@ -21,10 +21,13 @@ It is very easy to construct the backdoor, you only need to provide mismatched t
 
 # References
 ```
-@article{huang2023zero,
+@inproceedings{huang2024personalization,
   title={Personalization as a Shortcut for Few-Shot Backdoor Attack against Text-to-Image Diffusion Models},
-  author={Yihao Huang, Felix Juefei-Xu, Qing Guo, Jie Zhang, Yutong Wu, Ming Hu, Tianlin Li, Geguang Pu, Yang Liu},
-  journal={arXiv preprint arXiv:2305.10701},
-  year={2023}
+  author={Huang, Yihao and Juefei-Xu, Felix and Guo, Qing and Zhang, Jie and Wu, Yutong and Hu, Ming and Li, Tianlin and Pu, Geguang and Liu, Yang},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={19},
+  pages={21169--21178},
+  year={2024}
 }
 ```
