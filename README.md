@@ -12,12 +12,13 @@ The paper is accepted by AAAI 2024.
 
 
 # Details
-The method is based on [Textual Inversion](https://textual-inversion.github.io/) and [Dreambooth](https://dreambooth.github.io/).
+The method "Personalization as a Shortcut" (PaaS) is based on [Textual Inversion](https://textual-inversion.github.io/) and [Dreambooth](https://dreambooth.github.io/).
 We follow the code implemented on hugging face 
 - https://github.com/huggingface/notebooks/blob/main/diffusers/sd_textual_inversion_training.ipynb
 - https://github.com/huggingface/notebooks/blob/main/diffusers/sd_dreambooth_training.ipynb
 
 It is very easy to construct the backdoor, you only need to provide mismatched text-image pairs to the code above.
+#### Note that according to our paper, the textual_inversion-based backdoor is significantly better than dreambooth-based backdoor.
 
 # References
 ```
